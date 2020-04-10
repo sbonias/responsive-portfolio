@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sambonias.com</title>
-    <!-- Copy and pasted bootstrap cdn to load its css templates to my code -->
+    <!-- Copy and pasted bootstraps CSS cdn to apply its templates to my code -->
     <!-- Hosted -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -15,10 +15,10 @@
 <!-- Header contains modified Bootstrap Navbar -->
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light border border-dark">
-        <!--after 3 long hours I finally figured out how to apply god damn styling via bootstramp style="property:value"-->
+        <!--after 3 long hours I finally figured out how to apply styling via bootstramp style="property:value"-->
         <a class="navbar-brand" style="background:teal; color: white; padding:25px;
-        font-weight: bold; margin-left: 50px; font-size: 26px; margin-top:-8px; margin-bottom: -8px;" href="#">Sam
-            Bonias</a>
+        font-weight: bold; margin-left: 50px; font-size: 26px; margin-top:-8px; margin-bottom: -8px;"
+            href="index.html">Sam Bonias</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -46,29 +46,47 @@
 
 <body>
     <div class="container">
+        <!--First row of container-->
         <div class="row">
-            <div class="col-md-12">
-                <h1>About Me</h1>
+            <h1 class="About" style="margin-left:20px; color:black;font-weight:bold;">About Me</h1>
+        </div>
+        <!--Added in horizontal line to separate content-->
+        <hr class="horizontal-line" style="border-width:4px">
+        <br>
+        <!--Second row of container-->
+        <div class="row">
+            <div class="col-md-12 col-lg-6 col-sm-12">
+                <!--added in picture of me-->
+                <img src="GrandCanyon.jpeg" alt="me at the Grand Canyon" class="img-fluid"
+                    style="height:95%; width: 100%; border-color:teal">
+                <span class="text-justify">At the Grand Canyon</span>
+                <!--added caption to picture-->
             </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="https://placekitten.com/200/139" alt="description of pic">
-                </div>
-                <div class="col-md-6">
-                    <p1>Lucas ipsum dolor sit amet windu wampa padmé luke moff coruscant baba organa sidious darth.
-                        Hutt darth zabrak jade wookiee.Lucas ipsum dolor sit amet windu wampa padmé luke moff coruscant
-                        baba organa sidious darth.
-                        Hutt darth zabrak jade wookiee.</p1>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <p2>Lucas ipsum dolor sit amet windu wampa padmé luke moff coruscant baba organa sidious darth.
-                            Hutt darth zabrak jade wookiee.Lucas ipsum dolor sit amet windu wampa padmé luke moff
-                            coruscant baba organa sidious darth. Hutt darth zabrak jade wookiee.</p2>
-                    </div>
-                </div>
+            <div class="col-md-12 col-lg-6 col-sm-12">
+                <p>I'm a Web Developer in training leveraging a background in business Finance, Accounting and
+                    Operations and looking to bring this experience with me in order to build a more intuitive user
+                    experience on the web. On track to earn a certificate in Full Stack Development from the University
+                    of New Hampshire, with newly developed skills in HTML, CSS, JavaScript, and responsive web design.
+                </p>
+                <p>Known as an innovative problem-solver passionate about developing apps, with a focus on mobile-first
+                    design and development. With each project, my aim is to best engage my audience for an impactful
+                    user-experience. Excited to leverage skills in the future as part of a fast-paced, quality-driven
+                    team in order to build better experiences on the web.
+                </p>
             </div>
+        </div>
+    </div>
 
+    <!-- Copy and pasted bootstraps JS cdn to apply its templates to my code -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -5,6 +5,7 @@ header {
 
 body {
     background-image: url("wallpaper.jpg");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .navbar-nav {
@@ -13,5 +14,5 @@ body {
 }
 
 .nav-link:hover{
-    background: #f4f4f4;color: #f97300;
+    background:lightcyan;
 }
