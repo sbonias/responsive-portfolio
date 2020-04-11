@@ -15,7 +15,7 @@
 <!-- Header contains modified Bootstrap Navbar -->
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light border border-dark">
-        <!--after 3 long hours I finally figured out how to apply god damn styling via bootstramp style="property:value"-->
+        <!--after 3 long hours I finally figured out how to apply styling via bootstramp style="property:value"-->
         <a class="navbar-brand" style="background:teal; color: white; padding:25px;
         font-weight: bold; margin-left: 50px; font-size: 26px; margin-top:-8px; margin-bottom: -8px;"
             href="index.html">Sam
@@ -42,8 +42,45 @@
     </nav>
 </header>
 
-<body>
+<!-- Contact Form -->
+<br>
+<br>
 
+<body>
+    <div class="contact-form">
+        <div class="container">
+            <form>
+                <h1 class="getintouch" style="font-weight: bold;">Get in Touch</h1>
+                <!--Added in horizontal line to separate content-->
+                <hr class="horizontal-line" style="border-width:4px">
+                <div class="row">
+                    <div class="col-lg-12 col-md-4 col-sm-12">
+                    </div>
+                    <br>
+                    <div class="col-lg-12 col-md8 col-sm-12 right">
+                        <div class="form-group">
+                            <input type="text" class="form-control-lg" placeholder="Your Name" name="">
+                        </div>
+                        <div class="form group">
+                            <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com"
+                                name="email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control form-control-lg">
+
+                            </textarea>
+                        </div>
+                        <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+                    </div>
+                </div>
+            </form>
+            <br>
+            <figure>
+                <img src="Grand Canyon_2.jpeg" alt="The Grand Canyon" class="img-fluid"
+                    style="height:95%; width: 100%; border-style:solid; border-width: thin;">
+            </figure>
+        </div>
+    </div>
 
 
     <!-- Copy and pasted bootstraps JS cdn to apply its templates to my code -->
