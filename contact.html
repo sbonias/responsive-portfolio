@@ -41,58 +41,59 @@
         </div>
     </nav>
 </header>
-
-<!-- Contact Form -->
 <br>
 <br>
 
 <body>
+    <!--Applied modified forms bootstrap component-->
     <div class="contact-form">
         <div class="container">
-            <form>
-                <h1 class="getintouch" style="font-weight: bold;">Get in Touch</h1>
-                <!--Added in horizontal line to separate content-->
-                <hr class="horizontal-line" style="border-width:4px">
-                <div class="row">
-                    <div class="col-lg-12 col-md-4 col-sm-12">
+            <!--Placed content in card-->
+            <div class="card" style="width: 100%; padding:20px;">
+                <form>
+                    <h1 class="getintouch" style="font-weight: bold;">Get in Touch</h1>
+                    <!--Added in horizontal line to separate content-->
+                    <hr class="horizontal-line" style="border-width:4px">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-4 col-sm-12">
+                        </div>
+                        <br>
+                        <div class="col-lg-12 col-md8 col-sm-12 right">
+                            <div class="form-group">
+                                <input type="text" class="form-control-lg" placeholder="Your Name" name="">
+                            </div>
+                            <div class="form group">
+                                <input type="email" class="form-control form-control-lg"
+                                    placeholder="YourEmail@email.com" name="email">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control form-control-lg">
+                            </textarea>
+                            </div>
+                            <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+                        </div>
                     </div>
                     <br>
-                    <div class="col-lg-12 col-md8 col-sm-12 right">
-                        <div class="form-group">
-                            <input type="text" class="form-control-lg" placeholder="Your Name" name="">
-                        </div>
-                        <div class="form group">
-                            <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com"
-                                name="email">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control form-control-lg">
-
-                            </textarea>
-                        </div>
-                        <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
-                    </div>
-                </div>
-            </form>
-            <br>
-            <figure>
-                <img src="Grand Canyon_2.jpeg" alt="The Grand Canyon" class="img-fluid"
-                    style="height:95%; width: 100%; border-style:solid; border-width: thin;">
-            </figure>
+                    <!--Added picture-->
+                    <figure>
+                        <img src="Assets/Images/Grand Canyon_2.jpeg" alt="The Grand Canyon" class="img-fluid"
+                            style="height:60%; width: 100%; border-style:solid; border-width: thin;">
+                    </figure>
+                </form>
+            </div>
         </div>
-    </div>
 
 
-    <!-- Copy and pasted bootstraps JS cdn to apply its templates to my code -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+        <!-- Copy and pasted bootstraps JS cdn to apply its templates to my code -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
