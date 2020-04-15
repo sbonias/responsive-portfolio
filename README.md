@@ -81,8 +81,10 @@ We would like you to have well over 200 commits by graduation, so commit early a
 You are required to submit the following:
 
 * The URLs of the deployed applications
+ https://sbonias.github.io/responsive-portfolio/
 
 * The URLs of the GitHub repositories
+ https://github.com/sbonias/responsive-portfolio
 
 - - -
 
